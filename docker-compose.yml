@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+    app:
+        tty: true
+        build: .
+        container_name: codingjava
+        volumes:
+          - ./:/home/douglas/
+        ports:
+          - 80:80
